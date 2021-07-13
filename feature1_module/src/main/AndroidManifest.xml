@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.vd.feature1_module">
+
+    <application>
+        <activity android:name=".FeatureLib2"></activity>
+        <activity android:name=".FeatureLib" />
+    </application>
+
+</manifest>

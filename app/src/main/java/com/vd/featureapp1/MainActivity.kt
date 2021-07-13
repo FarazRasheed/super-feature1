@@ -8,6 +8,7 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.navigation.findNavController
 import androidx.navigation.ui.AppBarConfiguration
 import androidx.navigation.ui.navigateUp
+import com.vd.feature1_module.FeatureLib
 import com.vd.featureapp1.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
@@ -23,7 +24,7 @@ class MainActivity : AppCompatActivity() {
 
 
        binding.buttonFirst.setOnClickListener {
-           val intent = Intent(this, MainActivity2::class.java)
+           val intent = Intent(this, FeatureLib::class.java)
            startActivity(intent)
        }
     }
