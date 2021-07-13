@@ -1,3 +1,4 @@
 rootProject.name = "FeatureApp1"
 include ':app'
 include ':feature1_module'
+include ':CommonResources'
